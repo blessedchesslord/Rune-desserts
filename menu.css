@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+    font-family: 'DM Sans', sans-serif;
+}
+
+body{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    gap: 257px;
+}
+
+.header-h1{
+    width: 200px;
+}
+
+nav{
+    display: flex;
+    gap: 60px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.header-right a{
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.header-right img{
+    width: 20px;
+    height: 20px;
+}
+
+h1{
+    margin-right: 995px;
+    font-size: 35px;
+    color: #1E9658;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    width: 1265px;
+    padding-bottom: 40px;
+}
+
+section h1{
+    color: black;
+    font-size: 25px;
+    padding-left: 40px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-weight: lighter;
+}
+
+.menu{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.dessert-menu{
+    display: flex;
+    flex-direction: column;
+}
+
+.dessert-menu img{
+    width: 100%;
+    height: auto;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: fit-content;
+}
+
+.price{
+    display: flex;
+    flex-direction: column;
+}
+
+.price h6{
+    color: #1E9658;
+    font-size: 14px;
+}
+
+.price h3{
+    color: black;
+    font-size: 23px;
+}
+
+.container button{
+    background-color: #1E9658;
+    color: white;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+.delivery{
+    margin-right: 840px;
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: #1E9658;
+    border: none;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.delivery h6{
+    font-size: large;
+    font-weight: 300;
+    background: none;
+}
+
+.delivery img{
+    width: 20px;
+    background: none;
+}

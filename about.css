@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+    font-family: 'DM Sans', sans-serif;
+}
+
+body{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    gap: 250px;
+}
+
+.header-h1{
+    width: 200px;
+}
+
+nav{
+    display: flex;
+    gap: 60px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.header-right a{
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.header-right img{
+    width: 20px;
+    height: 20px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    width: 1265px;
+    height: 400px;
+    background-color: #1E9658;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    padding-left: 250px;
+    padding-right: 250px;
+    gap: 40px;
+}
+
+main h1{
+    font-size: 35px;
+    color: white;
+    background: none;
+}
+
+main p{
+    color: white;
+    background: none;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+img{
+    width: 1265px;
+    height: auto;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    gap: 130px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.foot{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.foot h1{
+    font-size: 20px;
+}
+
+.menu-links{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.menu-links a{
+    color: black;
+    text-decoration: none;
+}
+
+.about-links{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.about-links a{
+    color: black;
+    text-decoration: none;
+}
+
+.contact-links{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-link img{
+    width: 20px;
+    height: 20px;
+}
+
+.contact-link a{
+    color: black;
+    text-decoration: none;
+}
+
+.follow-us{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.follow-us h1{
+    font-size: 20px;
+}
+
+.follow-links{
+    display: flex;
+    gap: 25px;
+}
+
+.follow-links img{
+    width: 20px;
+    height: 20px;
+}

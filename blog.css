@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+    font-family: 'DM Sans', sans-serif;
+}
+
+body{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    gap: 250px;
+    width: 1265px;
+}
+
+.header-h1{
+    width: 200px;
+}
+
+nav{
+    display: flex;
+    gap: 60px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.header-right a{
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.header-right img{
+    width: 20px;
+    height: 20px;
+}
+
+main img{
+    width: 1265px;
+    height: auto;
+}
+
+/* main{
+    width: 1265px;
+    height: 400px;
+    background-image: url("/images/blog-images/Rectangle\ 23.png");
+} */
