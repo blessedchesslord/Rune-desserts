@@ -82,6 +82,7 @@ form{
 form input, form textarea{
     width: 400px;
     padding: 10px;
+    color: white;
     border: none;
     background: transparent;
     border: 0.5px solid grey
