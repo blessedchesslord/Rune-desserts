@@ -136,8 +136,10 @@ section{
     flex-direction: column;
     padding-top: 60px;
     padding-bottom: 60px;
-    padding-left: 60px;
+    padding-left: 40px;
+    padding-right: 40px;
     width: 100%;
+    gap: 100px;
 }
 
 .news-letter{
@@ -178,4 +180,142 @@ section{
     background-color: black;
     color: white;
     font-weight: bold;
+}
+
+.email-side button:hover{
+    cursor: pointer;
+}
+
+.food-section{
+    display: flex;
+    gap: 20px;
+    background: none;
+}
+
+.image{
+    display: flex;
+    background: none;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.image img{
+    width: 380px;
+    height: auto;
+    background: none;
+}
+
+.image h3{
+    text-align: left;
+    background: none;
+    color: black;
+    font-size: 20px;
+}
+
+.image h2{
+    text-align: left;
+    background: none;
+    color: black;
+    font-size: 25px;
+}
+
+.image p{
+    text-align: left;
+    background: none;
+    color: black;
+    font-size: 14px;
+    padding-top: 15px;
+}
+
+.image button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 40px;
+    background-color: #1E9658;
+    color: white;
+    border: none;
+    font-size: 14px;
+    align-self: end;
+}
+
+.image button:hover{
+    cursor: pointer;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    gap: 130px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.foot{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.foot h1{
+    font-size: 20px;
+}
+
+.menu-links{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.menu-links a{
+    color: black;
+    text-decoration: none;
+}
+
+.about-links{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.about-links a{
+    color: black;
+    text-decoration: none;
+}
+
+.contact-links{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-link img{
+    width: 20px;
+    height: 20px;
+}
+
+.contact-link a{
+    color: black;
+    text-decoration: none;
+}
+
+.follow-us{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.follow-us h1{
+    font-size: 20px;
+}
+
+.follow-links{
+    display: flex;
+    gap: 25px;
+}
+
+.follow-links img{
+    width: 20px;
+    height: 20px;
 }
