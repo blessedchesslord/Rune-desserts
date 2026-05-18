@@ -13,6 +13,12 @@ body{
     flex-direction: column;
 }
 
+.desktop{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 header{
     display: flex;
     align-items: center;
@@ -47,13 +53,63 @@ nav a{
     height: 20px;
 }
 
-main img{
-    width: 1265px;
-    height: auto;
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 70px;
+    background-image: url(/images/blog-images/Rectangle\ 23.png);
+    width: 100%;
+    height: 100vh;
 }
 
-/* main{
-    width: 1265px;
-    height: 400px;
-    background-image: url("/images/blog-images/Rectangle\ 23.png");
-} */
+.comment-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    gap: 30px;
+    width: fit-content;
+}
+
+.comment{
+    display: flex;
+    flex-direction: column;
+    background: none;
+    width: 400px;
+}
+
+.comment h1{
+    background: none;
+}
+
+.comment p{
+    background: none;
+}
+
+.below-comment{
+    display: flex;
+    flex-direction: column;
+    background: none;
+}
+
+.profile{
+    display: flex;
+    background: none;
+}
+
+.profile img{
+    width: 70px;
+    height: auto;
+    background: none;
+}
+
+.name-date{
+    display: flex;
+    flex-direction: column;
+    background: none;
+}
+
+.name-date h2,p{
+    background: none;
+}

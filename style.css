@@ -397,16 +397,16 @@ footer{
     height: 20px;
 }
 
-.mobile-body{
+.mobile{
     display: none;
 }
 
-@media screen and (max-width:375px){
+/* @media screen and (max-width:375px){
     .desktop{
         display: none;
     }
 
-    .mobile-body{
+    .mobile{
         display: flex;
         align-items: center;
         justify-content: center;
@@ -421,4 +421,4 @@ footer{
     .mobile-header h1{
     }
 
-}
+} */
