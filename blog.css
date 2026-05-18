@@ -129,3 +129,53 @@ main{
     height: 50px;
     background: none;
 }
+
+section{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 60px;
+    width: 100%;
+}
+
+.news-letter{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #1E9658;
+    width: fit-content;
+    gap: 200px;
+}
+
+.news-letter h1{
+    color: white;
+    font-size: 30px;
+    background: none;
+}
+
+.email-side{
+    display: flex;
+    gap: none;
+    background: none;
+}
+
+.email-side input{
+    padding: 10px;
+    width: 150px;
+    border: none;
+    color: black;
+}
+
+.email-side button{
+    padding: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
