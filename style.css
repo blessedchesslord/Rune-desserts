@@ -92,14 +92,15 @@ main img{
     text-align: center;
 }
 
-.hug button{
+.hug a{
+    text-decoration: none;
+    background-color: #1E9658;
+    color: white; 
     width: 120px;
     height: 40px;
-    background-color: #1E9658;
-    color: white;
-    border: none;
-    margin-top: 20px;
-    cursor: pointer;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 40px;
 }
 
 .header-p{
