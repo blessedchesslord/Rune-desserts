@@ -18,6 +18,7 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    gap: 100px;
 }
 
 header{
@@ -51,6 +52,185 @@ nav a{
 .header-right img{
     width: 20px;
     height: 20px;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+}
+
+main img{
+    width: 400px;
+    height: 400px;
+}
+
+.main-writing{
+    display: flex;
+    flex-direction: column;
+}
+
+.main-header{
+    display: flex;
+    align-items: center;
+    gap: 125px;
+}
+
+.image{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.image img{
+    width: 25px;
+    height: 25px;
+}
+
+.image p{
+    font-size: 18px;
+    color: gold;
+    padding-bottom: 25px;
+}
+
+.main-writing p{
+    font-size: 18px;
+    width: 400px;
+    padding-top: 30px;
+}
+
+.main-writing h2{
+    font-size: 30px;
+    padding-top: 30px;
+}
+
+.main-writing h4{
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+.main-buttons{
+    display: flex;
+    gap: 50px;
+    align-items: end;
+}
+
+.left-buttons{
+    display: flex;
+    gap: 10px;
+}
+
+.left-buttons button{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    color: #1E9658;
+    border: solid 2px #1E9658;
+    cursor: pointer;
+    font-size: 30px;
+    text-align: center;
+}
+
+.left-buttons button:hover{
+    cursor: pointer;
+}
+
+.left-buttons input{
+    width: 40px;
+    height: 30px;
+    padding-left: 5px;
+    text-align: center;
+    font-size: 18px;
+    border: none;
+}
+
+.right-buttons{
+    display: flex;
+    gap: 30px;
+}
+
+.right-buttons button{
+    cursor: pointer;
+}
+
+.button1{
+    width: 220px;
+    height: 60px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: white;
+    color: #1E9658;
+    border: solid 1px #1E9658;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.button2{
+    width: 220px;
+    height: 60px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #1E9658;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+}
+
+.display{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.display img{
+    width: 365px;
+    height: 365px;
+}
+
+.display-writing{
+    display: flex;
+    gap: 20px;
+}
+
+.left-display{
+    display: flex;
+    flex-direction: column;
+    width: 194px;
+}
+
+.left-display h5{
+    font-size: 15px;
+}
+
+.left-display p{
+    font-size: 18px;
+}
+
+.display-writing button{
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: 300;
+    background-color: #1E9658;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.display-writing button:hover{
+    cursor: pointer;
 }
 
 footer{
