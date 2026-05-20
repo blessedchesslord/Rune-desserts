@@ -125,6 +125,7 @@ section h1{
 }
 
 .delivery{
+    text-decoration: none;
     margin-right: 840px;
     display: flex;
     align-items: center;
@@ -136,7 +137,6 @@ section h1{
     padding-top: 15px;
     padding-bottom: 15px;
     gap: 20px;
-    cursor: pointer;
 }
 
 .delivery h6{
