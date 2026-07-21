@@ -14,6 +14,13 @@ body{
     padding-bottom: 50px;
 }
 
+.desktop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
 header{
     display: flex;
     align-items: center;

@@ -17,6 +17,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 100px;
 }
 
 header{
@@ -51,6 +52,76 @@ nav a{
 .header-right img{
     width: 20px;
     height: 20px;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+main h1{
+    font-size: 35px;
+}
+
+.address{
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    background-color: whitesmoke;
+    padding: 20px;
+}
+
+.address h2{
+    font-size: 25px;
+    background-color: whitesmoke;
+}
+
+.address h3{
+    font-size: 18px;
+    background-color: whitesmoke;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.button1{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 400px;
+    padding: 15px;
+    background-color: white;
+    color: #1E9658;
+    font-size: 18px;
+    border: 1px solid #1E9658;
+}
+
+.button2{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 400px;
+    padding: 15px;
+    background-color: #1E9658;
+    color: white;
+    font-size: 18px;
+    border: none;
+}
+
+.button1, .button2:hover{
+    cursor: pointer;
 }
 
 footer{

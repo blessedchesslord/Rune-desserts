@@ -368,6 +368,11 @@ footer{
     gap: 20px;
 }
 
+.contact-link{
+    display: flex;
+    align-items: center;
+}
+
 .contact-link img{
     width: 20px;
     height: 20px;
@@ -402,7 +407,7 @@ footer{
     display: none;
 }
 
-/* @media screen and (max-width:375px){
+@media screen and (max-width:375px){
     .desktop{
         display: none;
     }
@@ -420,6 +425,6 @@ footer{
     }
 
     .mobile-header h1{
+        color: blue;
     }
-
-} */
+}
